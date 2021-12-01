@@ -10,5 +10,6 @@ int main(){
   }else{
     cout << a <<endl;
   }
+  
   return 0;
 }
