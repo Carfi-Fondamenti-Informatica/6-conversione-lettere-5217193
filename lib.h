@@ -4,4 +4,3 @@
 
 #endif //ESERCITAZIONE_6_LIB_H
 bool conversione ( char &);
-
