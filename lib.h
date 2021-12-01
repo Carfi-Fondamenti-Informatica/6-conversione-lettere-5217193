@@ -1,7 +1,7 @@
 
-#ifndef UNTITLED10_LIB_H
-#define UNTITLED10_LIB_H
+#ifndef ESERCITAZIONE_6_LIB_H
+#define ESERCITAZIONE_6_LIB_H
 
-#endif //UNTITLED10_LIB_H
+#endif //ESERCITAZIONE_6_LIB_H
 bool conversione ( char &);
 
