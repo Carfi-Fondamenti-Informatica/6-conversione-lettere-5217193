@@ -1,15 +1,20 @@
-
-#include <iostream>
-using namespace std;
-
 #include "lib.h"
 
-int main() {
-  char a=a;
-  cin>>a;
-  if (conversione (&: a)==false){
-    cout <<"errore"<<endl;
-  }else{
-    cout << a <<endl;
+bool conversione (char &a) {
+  bool t = true;
+  
+  if(a>=65& a<=90 or a>=97 & a<=122) {
+    t=true;
+    if (a >= 64 & a <=90) {
+      a=a+32;
+      return &a;
+      
+    }else{ 
+      
+      a=a-32;
+      return &a;
+    }
+  }else {
+    t=false;
   }
-  return 0;
+  return t;
