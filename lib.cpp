@@ -18,3 +18,4 @@ bool conversione (char &a) {
     t=false;
   }
   return t;
+  
