@@ -20,4 +20,4 @@ bool conversione (char &a ) {
   return t;
   
 
-  ]
+}
