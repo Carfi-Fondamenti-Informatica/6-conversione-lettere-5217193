@@ -8,7 +8,8 @@ int main(){
   if (conversione ( &: a)==false){
     cout <<"errore";
   }else{
-    cout << a <<endl;
+    cout << a;
+    
   }
   
   return 0;
